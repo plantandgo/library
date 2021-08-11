@@ -2,13 +2,13 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "paths": {
-      "custom-loader-library": [
-        "dist/custom-loader-library/custom-loader-library",
-        "dist/custom-loader-library"
+      "@plantandgo/custom-loader-lib": [
+        "dist/plantandgo/custom-loader-lib/plantandgo-custom-loader-lib",
+        "dist/plantandgo/custom-loader-lib"
       ]
     },
+    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

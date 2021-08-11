@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CustomLoaderLibModule } from '@plantandgo/custom-loader-lib';
 
 import { AppComponent } from './app.component';
 
-import { CustomLoaderLibraryModule } from 'custom-loader-library';
+
 
 @NgModule({
   declarations: [
@@ -11,7 +12,7 @@ import { CustomLoaderLibraryModule } from 'custom-loader-library';
   ],
   imports: [
     BrowserModule,
-    CustomLoaderLibraryModule
+    CustomLoaderLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]

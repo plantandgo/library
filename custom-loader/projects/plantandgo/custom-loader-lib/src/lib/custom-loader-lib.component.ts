@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-custom-loader-library',
+  selector: 'lib-custom-loader-lib',
   template: `
     <p>
-      custom-loader-library component works!
+      custom-loader-lib works!
     </p>
   `,
   styles: [
   ]
 })
-export class CustomLoaderLibraryComponent implements OnInit {
+export class CustomLoaderLibComponent implements OnInit {
 
   constructor() { }
 
