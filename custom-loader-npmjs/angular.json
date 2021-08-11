@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "custom-loader-used-npmjs": {
+    "custom-loader-npmjs": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/custom-loader-used-npmjs",
+            "outputPath": "dist/custom-loader-npmjs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "custom-loader-used-npmjs:build:production"
+              "browserTarget": "custom-loader-npmjs:build:production"
             },
             "development": {
-              "browserTarget": "custom-loader-used-npmjs:build:development"
+              "browserTarget": "custom-loader-npmjs:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "custom-loader-used-npmjs:build"
+            "browserTarget": "custom-loader-npmjs:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "custom-loader-used-npmjs"
+  "defaultProject": "custom-loader-npmjs"
 }
