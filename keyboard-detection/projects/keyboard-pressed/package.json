@@ -1,6 +1,6 @@
 {
   "name": "@plantandgo/keyboard-pressed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "plantandgo library for keypressed events",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
