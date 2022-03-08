@@ -1,13 +1,13 @@
 {
   "name": "@plantandgo/library",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "plant and go library",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"
-  },
-  "dependencies": {
-    "tslib": "^2.3.0"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/plantandgo/library/issues"
   },
-  "homepage": "https://github.com/plantandgo/library#readme"
+  "homepage": "https://github.com/plantandgo/library#readme",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "main": "bundles/custom-lovs.umd.js",
+  "module": "fesm2015/custom-lovs.js",
+  "es2015": "fesm2015/custom-lovs.js",
+  "esm2015": "esm2015/custom-lovs.js",
+  "fesm2015": "fesm2015/custom-lovs.js",
+  "typings": "custom-lovs.d.ts",
+  "sideEffects": false
 }
