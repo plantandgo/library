@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    KeyboardPressedModule
+    // KeyboardPressedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

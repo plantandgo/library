@@ -1,12 +1,13 @@
 {
   "name": "@plantandgo/keyboard-pressed",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "plantandgo library for keypressed events",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "tslib": "^2.3.0"
   },
   "repository": {
@@ -18,12 +19,16 @@
     "and",
     "go",
     "helpers",
-    "library"
+    "library",
+    "service"
   ],
   "author": "plantandgo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/plantandgo/library/issues"
   },
-  "homepage": "https://github.com/plantandgo/library#readme"
+  "homepage": "https://github.com/plantandgo/library#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.179"
+  }
 }
